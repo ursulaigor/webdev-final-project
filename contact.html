@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+<title>Capricho Restaurant - Contact</title>
+<link rel="shortcut icon" href="./images/icon.ico">
+<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+        <div class="top-header">
+                   <p> King Geoge #10285, Surrey</p>
+                    <a href="tel:+2363300555">Phone:236-3300555</a>
+        </div>
+         <header>
+            <div class="inner-header">
+                
+                <nav class="header-nav">
+                    <ul>
+                    <li id="nav-1"><a href="gallery.html">GALLERY</a></li>
+                     <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+		<div class="banner_form">
+            <div id="after_submit"></div>
+            <form name="mail" method="POST" action="send.php">
+           <!--<form id="contact_form" action="sendemail.php" method="POST" enctype="multipart/form-data">-->
+            <div class="row">
+                <label class="required" for="name">Your name:</label><br />
+                <input id="name" class="input" name="name" type="text" value="" /><br />
+                <span id="name_validation" class="error_message"></span>
+            </div>
+            <div class="row">
+                <label class="required" for="email">Your email:</label><br />
+                <input id="email" class="input" name="email" type="text" value="" /><br />
+                <span id="email_validation" class="error_message"></span>
+            </div>
+            <div class="row">
+                <label class="required" for="message">Your message:</label><br />
+                <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                <span id="message_validation" class="error_message"></span>
+            </div>
+    
+            <input name="submit" type="submit" value="Send" />
+        </form>
+			
+    </div>  
+    <div class="tag">
+            <a href="index.html"><img src="./images/logo.jpg" alt ="Main Page" title="Main Page"/></a>
+            
+    </div> 
+    </body>
+		
+		<footer>      
+                <p>&copy Capricho Restaurant</p>
+		</footer>
+
+        
+    </div></html>
